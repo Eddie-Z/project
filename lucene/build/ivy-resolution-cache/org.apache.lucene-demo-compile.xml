@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="org.apache.lucene"
+		module="demo"
+		revision="working@9e30973c836c"
+		conf="compile"
+		confs="compile"
+		date="20200730220123"/>
+	<dependencies>
+		<module organisation="net.sourceforge.nekohtml" name="nekohtml">
+			<revision name="1.9.17" status="release" pubdate="20121105071402" resolver="public" artresolver="main" homepage="http://nekohtml.sourceforge.net/" downloaded="false" searched="false" default="false" conf="master" position="2">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2746" time="0" location="/root/.ivy2/cache/net.sourceforge.nekohtml/nekohtml/ivy-1.9.17.xml" searched="false" original-local-location="/root/.ivy2/cache/net.sourceforge.nekohtml/nekohtml/ivy-1.9.17.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/net/sourceforge/nekohtml/nekohtml/1.9.17/nekohtml-1.9.17.pom"/>
+				<caller organisation="org.apache.lucene" name="demo" conf="compile" rev="1.9.17" rev-constraint-default="1.9.17" rev-constraint-dynamic="1.9.17" callerrev="working@9e30973c836c"/>
+				<artifacts>
+					<artifact name="nekohtml" type="jar" ext="jar" status="no" details="" size="124478" time="0" location="/root/.ivy2/cache/net.sourceforge.nekohtml/nekohtml/jars/nekohtml-1.9.17.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/net/sourceforge/nekohtml/nekohtml/1.9.17/nekohtml-1.9.17.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="xerces" name="xercesImpl">
+			<revision name="2.9.1" status="release" pubdate="20081001221919" resolver="public" artresolver="main" homepage="http://xerces.apache.org/xerces2-j" downloaded="false" searched="false" default="false" conf="master" position="1">
+				<metadata-artifact status="no" details="" size="2945" time="0" location="/root/.ivy2/cache/xerces/xercesImpl/ivy-2.9.1.xml" searched="false" original-local-location="/root/.ivy2/cache/xerces/xercesImpl/ivy-2.9.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/xerces/xercesImpl/2.9.1/xercesImpl-2.9.1.pom"/>
+				<caller organisation="org.apache.lucene" name="demo" conf="compile" rev="2.9.1" rev-constraint-default="2.9.1" rev-constraint-dynamic="2.9.1" callerrev="working@9e30973c836c"/>
+				<artifacts>
+					<artifact name="xercesImpl" type="jar" ext="jar" status="no" details="" size="1229125" time="0" location="/root/.ivy2/cache/xerces/xercesImpl/jars/xercesImpl-2.9.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/xerces/xercesImpl/2.9.1/xercesImpl-2.9.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="javax.servlet" name="servlet-api">
+			<revision name="2.4" status="release" pubdate="20051108215835" resolver="public" artresolver="main" homepage="" downloaded="false" searched="false" default="false" conf="master" position="0">
+				<metadata-artifact status="no" details="" size="2289" time="0" location="/root/.ivy2/cache/javax.servlet/servlet-api/ivy-2.4.xml" searched="false" original-local-location="/root/.ivy2/cache/javax.servlet/servlet-api/ivy-2.4.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/javax/servlet/servlet-api/2.4/servlet-api-2.4.pom"/>
+				<caller organisation="org.apache.lucene" name="demo" conf="compile" rev="2.4" rev-constraint-default="2.4" rev-constraint-dynamic="2.4" callerrev="working@9e30973c836c"/>
+				<artifacts>
+					<artifact name="servlet-api" type="jar" ext="jar" status="no" details="" size="97693" time="0" location="/root/.ivy2/cache/javax.servlet/servlet-api/jars/servlet-api-2.4.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/javax/servlet/servlet-api/2.4/servlet-api-2.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>
